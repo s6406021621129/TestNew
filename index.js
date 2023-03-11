@@ -6,6 +6,6 @@ const user = require('./routes/router.js')
 app.use('/app',user);
 
 app.listen(3000,() => {
-    console.log("sever runing")
+    console.log("sever running")
 });
 
